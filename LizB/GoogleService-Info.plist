@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>459431636996-65tafni89ve1hfu2fmpi6pkfhuhs61lb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.459431636996-65tafni89ve1hfu2fmpi6pkfhuhs61lb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDE_ICVZD4x1DO8vZhRqlmd5dJTRJ79IvA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>459431636996</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>phyntriks.LizB</string>
+	<key>PROJECT_ID</key>
+	<string>lizb-fa515</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lizb-fa515.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:459431636996:ios:70a146a69f615dcb27c551</string>
+	<key>DATABASE_URL</key>
+	<string>https://lizb-fa515.firebaseio.com</string>
+</dict>
+</plist>

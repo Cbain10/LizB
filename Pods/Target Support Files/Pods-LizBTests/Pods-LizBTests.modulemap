@@ -1,0 +1,6 @@
+framework module Pods_LizBTests {
+  umbrella header "Pods-LizBTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

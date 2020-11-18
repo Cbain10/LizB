@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ADC22B038B314AF77C1F6A0 /* Pods_LizBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FC6A30504E8A4233E35BE3 /* Pods_LizBTests.framework */; };
+		47911A5264F83E6D542FAC04 /* Pods_LizB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B26F80EDC3C97E2BC44451 /* Pods_LizB.framework */; };
+		4BB2DFE4EFB120909A59C63C /* Pods_LizB_LizBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B2C171467F35002847AB3 /* Pods_LizB_LizBUITests.framework */; };
 		5E38F916256582BC00A37A5F /* LizBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F915256582BC00A37A5F /* LizBApp.swift */; };
 		5E38F918256582BC00A37A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F917256582BC00A37A5F /* ContentView.swift */; };
 		5E38F91A256582BE00A37A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F919256582BE00A37A5F /* Assets.xcassets */; };
 		5E38F91D256582BE00A37A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F91C256582BE00A37A5F /* Preview Assets.xcassets */; };
 		5E38F928256582BE00A37A5F /* LizBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F927256582BE00A37A5F /* LizBTests.swift */; };
 		5E38F933256582BE00A37A5F /* LizBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F932256582BE00A37A5F /* LizBUITests.swift */; };
+		5E38F9442565831100A37A5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F9432565831100A37A5F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1534FD00B36B5A6D289A544F /* Pods-LizBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizBTests.release.xcconfig"; path = "Target Support Files/Pods-LizBTests/Pods-LizBTests.release.xcconfig"; sourceTree = "<group>"; };
+		23DF3E9AFD38F2F4ABD0C89D /* Pods-LizB-LizBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizB-LizBUITests.debug.xcconfig"; path = "Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		251416AA57EDC0F16609A212 /* Pods-LizB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizB.debug.xcconfig"; path = "Target Support Files/Pods-LizB/Pods-LizB.debug.xcconfig"; sourceTree = "<group>"; };
+		33B26F80EDC3C97E2BC44451 /* Pods_LizB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EED9C3F350FCDD24D1F8E6D /* Pods-LizB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizB.release.xcconfig"; path = "Target Support Files/Pods-LizB/Pods-LizB.release.xcconfig"; sourceTree = "<group>"; };
+		49FC6A30504E8A4233E35BE3 /* Pods_LizBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E38F912256582BC00A37A5F /* LizB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LizB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E38F915256582BC00A37A5F /* LizBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LizBApp.swift; sourceTree = "<group>"; };
 		5E38F917256582BC00A37A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +55,10 @@
 		5E38F92E256582BE00A37A5F /* LizBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LizBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E38F932256582BE00A37A5F /* LizBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LizBUITests.swift; sourceTree = "<group>"; };
 		5E38F934256582BE00A37A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E38F9432565831100A37A5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A17383F01FB5F5B30D7E1A9 /* Pods-LizB-LizBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizB-LizBUITests.release.xcconfig"; path = "Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD9B2C171467F35002847AB3 /* Pods_LizB_LizBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizB_LizBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED46308A6EFD055888DAB16 /* Pods-LizBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizBTests.debug.xcconfig"; path = "Target Support Files/Pods-LizBTests/Pods-LizBTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47911A5264F83E6D542FAC04 /* Pods_LizB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADC22B038B314AF77C1F6A0 /* Pods_LizBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB2DFE4EFB120909A59C63C /* Pods_LizB_LizBUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D3A2BDB3E8C505937D9A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B26F80EDC3C97E2BC44451 /* Pods_LizB.framework */,
+				CD9B2C171467F35002847AB3 /* Pods_LizB_LizBUITests.framework */,
+				49FC6A30504E8A4233E35BE3 /* Pods_LizBTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E38F909256582BC00A37A5F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +106,8 @@
 				5E38F926256582BE00A37A5F /* LizBTests */,
 				5E38F931256582BE00A37A5F /* LizBUITests */,
 				5E38F913256582BC00A37A5F /* Products */,
+				632B80F20424D9CB2A64CD04 /* Pods */,
+				19D3A2BDB3E8C505937D9A8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +127,7 @@
 				5E38F915256582BC00A37A5F /* LizBApp.swift */,
 				5E38F917256582BC00A37A5F /* ContentView.swift */,
 				5E38F919256582BE00A37A5F /* Assets.xcassets */,
+				5E38F9432565831100A37A5F /* GoogleService-Info.plist */,
 				5E38F91E256582BE00A37A5F /* Info.plist */,
 				5E38F91B256582BE00A37A5F /* Preview Content */,
 			);
@@ -130,6 +160,20 @@
 			path = LizBUITests;
 			sourceTree = "<group>";
 		};
+		632B80F20424D9CB2A64CD04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				251416AA57EDC0F16609A212 /* Pods-LizB.debug.xcconfig */,
+				3EED9C3F350FCDD24D1F8E6D /* Pods-LizB.release.xcconfig */,
+				23DF3E9AFD38F2F4ABD0C89D /* Pods-LizB-LizBUITests.debug.xcconfig */,
+				6A17383F01FB5F5B30D7E1A9 /* Pods-LizB-LizBUITests.release.xcconfig */,
+				EED46308A6EFD055888DAB16 /* Pods-LizBTests.debug.xcconfig */,
+				1534FD00B36B5A6D289A544F /* Pods-LizBTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E38F937256582BE00A37A5F /* Build configuration list for PBXNativeTarget "LizB" */;
 			buildPhases = (
+				5BC8F37FE94539CD2558CE00 /* [CP] Check Pods Manifest.lock */,
 				5E38F90E256582BC00A37A5F /* Sources */,
 				5E38F90F256582BC00A37A5F /* Frameworks */,
 				5E38F910256582BC00A37A5F /* Resources */,
+				0E22247A3EFC7CC395CC9F2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E38F93A256582BE00A37A5F /* Build configuration list for PBXNativeTarget "LizBTests" */;
 			buildPhases = (
+				4EED8B2E8BFEF2EC50BC4EAF /* [CP] Check Pods Manifest.lock */,
 				5E38F91F256582BE00A37A5F /* Sources */,
 				5E38F920256582BE00A37A5F /* Frameworks */,
 				5E38F921256582BE00A37A5F /* Resources */,
@@ -172,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E38F93D256582BE00A37A5F /* Build configuration list for PBXNativeTarget "LizBUITests" */;
 			buildPhases = (
+				FC08835DA5FF824ABD36C290 /* [CP] Check Pods Manifest.lock */,
 				5E38F92A256582BE00A37A5F /* Sources */,
 				5E38F92B256582BE00A37A5F /* Frameworks */,
 				5E38F92C256582BE00A37A5F /* Resources */,
+				CEAD38FFC26493D80691B654 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +284,7 @@
 			files = (
 				5E38F91D256582BE00A37A5F /* Preview Assets.xcassets in Resources */,
 				5E38F91A256582BE00A37A5F /* Assets.xcassets in Resources */,
+				5E38F9442565831100A37A5F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E22247A3EFC7CC395CC9F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LizB/Pods-LizB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LizB/Pods-LizB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LizB/Pods-LizB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EED8B2E8BFEF2EC50BC4EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LizBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC8F37FE94539CD2558CE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LizB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEAD38FFC26493D80691B654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC08835DA5FF824ABD36C290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LizB-LizBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E38F90E256582BC00A37A5F /* Sources */ = {
@@ -414,6 +567,7 @@
 		};
 		5E38F938256582BE00A37A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251416AA57EDC0F16609A212 /* Pods-LizB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +589,7 @@
 		};
 		5E38F939256582BE00A37A5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EED9C3F350FCDD24D1F8E6D /* Pods-LizB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +611,7 @@
 		};
 		5E38F93B256582BE00A37A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED46308A6EFD055888DAB16 /* Pods-LizBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +633,7 @@
 		};
 		5E38F93C256582BE00A37A5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1534FD00B36B5A6D289A544F /* Pods-LizBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +655,7 @@
 		};
 		5E38F93E256582BE00A37A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DF3E9AFD38F2F4ABD0C89D /* Pods-LizB-LizBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +675,7 @@
 		};
 		5E38F93F256582BE00A37A5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A17383F01FB5F5B30D7E1A9 /* Pods-LizB-LizBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
