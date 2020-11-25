@@ -20,7 +20,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct LizBApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OpenView()
         }
     }
 }

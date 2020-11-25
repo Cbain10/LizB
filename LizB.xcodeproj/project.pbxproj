@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,14 @@
 		47911A5264F83E6D542FAC04 /* Pods_LizB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B26F80EDC3C97E2BC44451 /* Pods_LizB.framework */; };
 		4BB2DFE4EFB120909A59C63C /* Pods_LizB_LizBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B2C171467F35002847AB3 /* Pods_LizB_LizBUITests.framework */; };
 		5E38F916256582BC00A37A5F /* LizBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F915256582BC00A37A5F /* LizBApp.swift */; };
-		5E38F918256582BC00A37A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F917256582BC00A37A5F /* ContentView.swift */; };
+		5E38F918256582BC00A37A5F /* OpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F917256582BC00A37A5F /* OpenView.swift */; };
 		5E38F91A256582BE00A37A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F919256582BE00A37A5F /* Assets.xcassets */; };
 		5E38F91D256582BE00A37A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F91C256582BE00A37A5F /* Preview Assets.xcassets */; };
 		5E38F928256582BE00A37A5F /* LizBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F927256582BE00A37A5F /* LizBTests.swift */; };
 		5E38F933256582BE00A37A5F /* LizBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F932256582BE00A37A5F /* LizBUITests.swift */; };
 		5E38F9442565831100A37A5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F9432565831100A37A5F /* GoogleService-Info.plist */; };
+		5E409CB6256F0C1300899A19 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E409CB5256F0C1300899A19 /* LoginView.swift */; };
+		5E409CBE256F0CA600899A19 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E409CBD256F0CA600899A19 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,7 @@
 		49FC6A30504E8A4233E35BE3 /* Pods_LizBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E38F912256582BC00A37A5F /* LizB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LizB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E38F915256582BC00A37A5F /* LizBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LizBApp.swift; sourceTree = "<group>"; };
-		5E38F917256582BC00A37A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E38F917256582BC00A37A5F /* OpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenView.swift; sourceTree = "<group>"; };
 		5E38F919256582BE00A37A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E38F91C256582BE00A37A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E38F91E256582BE00A37A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,8 @@
 		5E38F932256582BE00A37A5F /* LizBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LizBUITests.swift; sourceTree = "<group>"; };
 		5E38F934256582BE00A37A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E38F9432565831100A37A5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E409CB5256F0C1300899A19 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5E409CBD256F0CA600899A19 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		6A17383F01FB5F5B30D7E1A9 /* Pods-LizB-LizBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizB-LizBUITests.release.xcconfig"; path = "Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD9B2C171467F35002847AB3 /* Pods_LizB_LizBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizB_LizBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED46308A6EFD055888DAB16 /* Pods-LizBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizBTests.debug.xcconfig"; path = "Target Support Files/Pods-LizBTests/Pods-LizBTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				5E38F915256582BC00A37A5F /* LizBApp.swift */,
-				5E38F917256582BC00A37A5F /* ContentView.swift */,
+				5E38F917256582BC00A37A5F /* OpenView.swift */,
+				5E409CBD256F0CA600899A19 /* SignupView.swift */,
+				5E409CB5256F0C1300899A19 /* LoginView.swift */,
 				5E38F919256582BE00A37A5F /* Assets.xcassets */,
 				5E38F9432565831100A37A5F /* GoogleService-Info.plist */,
 				5E38F91E256582BE00A37A5F /* Info.plist */,
@@ -170,7 +176,6 @@
 				EED46308A6EFD055888DAB16 /* Pods-LizBTests.debug.xcconfig */,
 				1534FD00B36B5A6D289A544F /* Pods-LizBTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -412,7 +417,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E38F918256582BC00A37A5F /* ContentView.swift in Sources */,
+				5E409CBE256F0CA600899A19 /* SignupView.swift in Sources */,
+				5E409CB6256F0C1300899A19 /* LoginView.swift in Sources */,
+				5E38F918256582BC00A37A5F /* OpenView.swift in Sources */,
 				5E38F916256582BC00A37A5F /* LizBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
