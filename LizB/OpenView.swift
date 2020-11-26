@@ -43,7 +43,7 @@ struct OpenView: View {
                     .padding(.bottom, 50)
                     .navigationBarTitle("Logo")
                 }
-                .background(Color.black)
+//                .background(Color.black)
             }
         }
     }

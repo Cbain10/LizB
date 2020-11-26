@@ -8,8 +8,51 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @State var email: String = ""
+    @State var password: String = ""
+    
     var body: some View {
-        Text("Login View")
+        ZStack {
+            VStack {
+                Text("Welcome Back!")
+                    .font(.system(size:32, weight: .heavy))
+                Text("Login to continue")
+                    .font(.system(size:18, weight: .medium))
+                    .foregroundColor(.gray)
+
+                VStack(spacing: 18) {
+                
+                    HStack (alignment: .center) {
+                        TextField("Email", text: $email)
+                            .padding(12)
+                            .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.black,lineWidth: 1))
+                    }
+                    HStack (alignment: .center) {
+                        SecureField("Password", text: $password)
+                            .padding(12)
+                            .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.black,lineWidth: 1))
+                    }
+                }
+                .padding(.vertical, 64)
+                
+                Button(action : {
+                }) {
+                    Text("Login")
+                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                        .frame(height: 50)
+                        .foregroundColor(.black)
+                    .background(LinearGradient(gradient: Gradient(colors: [Color("LightTeal"), Color("DarkTeal")]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+                    .cornerRadius(5)
+                    .foregroundColor(.white)
+                }
+                Spacer()
+            }
+            .padding(.horizontal, 32)
+            .padding(.top, 50)
+        }
+        
+        
     }
 }
 
