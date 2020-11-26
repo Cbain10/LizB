@@ -22,7 +22,7 @@ struct OpenView: View {
                                 .foregroundColor(.black)
                         }
                         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                        .background(LinearGradient(gradient: Gradient(colors: [Color("DarkTeal"), Color("LightTeal")]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+                        .background(LinearGradient(gradient: Gradient(colors: [Color("DarkTeal"), Color("DarkTeal")]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
                         .cornerRadius(40)
                         .foregroundColor(.white)
                         .padding(10)
