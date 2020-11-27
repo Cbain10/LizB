@@ -13,7 +13,8 @@ struct OpenView: View {
             ZStack {
                 VStack {
                     Spacer()
-                    NavigationLink(destination: LoginView()) {
+                    // FIXME -> cannot be constant(false) need to learn about BINDING
+                    NavigationLink(destination: LoginView(signInSucces: .constant(false))) {
                         HStack {
                             Text("Login")
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)

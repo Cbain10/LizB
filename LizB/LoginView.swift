@@ -85,8 +85,9 @@ struct LoginView: View {
 }
 
 struct LoginView_Previews: PreviewProvider {
-    @Binding var signInSuccess: Bool
+//    @Binding var signInSuccess: Bool
     static var previews: some View {
-        LoginView(signInSucces: $signInSuccess)
+        LoginView(signInSucces: .constant(false)) //FIXME -> see stack overflow
+        // cannot be .constant(false), will never be able to update
     }
 }
