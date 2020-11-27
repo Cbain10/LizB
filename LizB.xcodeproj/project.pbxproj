@@ -17,8 +17,12 @@
 		5E38F928256582BE00A37A5F /* LizBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F927256582BE00A37A5F /* LizBTests.swift */; };
 		5E38F933256582BE00A37A5F /* LizBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38F932256582BE00A37A5F /* LizBUITests.swift */; };
 		5E38F9442565831100A37A5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E38F9432565831100A37A5F /* GoogleService-Info.plist */; };
+		5E3953162570C1C30079A81E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3953152570C1C30079A81E /* FeedView.swift */; };
+		5E39531B2570C2080079A81E /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E39531A2570C2080079A81E /* WorkoutView.swift */; };
+		5E3953202570C2920079A81E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E39531F2570C2920079A81E /* ProfileView.swift */; };
 		5E409CB6256F0C1300899A19 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E409CB5256F0C1300899A19 /* LoginView.swift */; };
 		5E409CBE256F0CA600899A19 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E409CBD256F0CA600899A19 /* SignupView.swift */; };
+		5E62397425705042008F24BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62397325705042008F24BA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +62,12 @@
 		5E38F932256582BE00A37A5F /* LizBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LizBUITests.swift; sourceTree = "<group>"; };
 		5E38F934256582BE00A37A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E38F9432565831100A37A5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E3953152570C1C30079A81E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5E39531A2570C2080079A81E /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		5E39531F2570C2920079A81E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5E409CB5256F0C1300899A19 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5E409CBD256F0CA600899A19 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		5E62397325705042008F24BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6A17383F01FB5F5B30D7E1A9 /* Pods-LizB-LizBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizB-LizBUITests.release.xcconfig"; path = "Target Support Files/Pods-LizB-LizBUITests/Pods-LizB-LizBUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD9B2C171467F35002847AB3 /* Pods_LizB_LizBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizB_LizBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED46308A6EFD055888DAB16 /* Pods-LizBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizBTests.debug.xcconfig"; path = "Target Support Files/Pods-LizBTests/Pods-LizBTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +138,11 @@
 			children = (
 				5E38F915256582BC00A37A5F /* LizBApp.swift */,
 				5E38F917256582BC00A37A5F /* OpenView.swift */,
+				5E62397325705042008F24BA /* HomeView.swift */,
+				5E3953152570C1C30079A81E /* FeedView.swift */,
 				5E409CBD256F0CA600899A19 /* SignupView.swift */,
+				5E39531F2570C2920079A81E /* ProfileView.swift */,
+				5E39531A2570C2080079A81E /* WorkoutView.swift */,
 				5E409CB5256F0C1300899A19 /* LoginView.swift */,
 				5E38F919256582BE00A37A5F /* Assets.xcassets */,
 				5E38F9432565831100A37A5F /* GoogleService-Info.plist */,
@@ -417,9 +429,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3953202570C2920079A81E /* ProfileView.swift in Sources */,
+				5E39531B2570C2080079A81E /* WorkoutView.swift in Sources */,
 				5E409CBE256F0CA600899A19 /* SignupView.swift in Sources */,
 				5E409CB6256F0C1300899A19 /* LoginView.swift in Sources */,
 				5E38F918256582BC00A37A5F /* OpenView.swift in Sources */,
+				5E62397425705042008F24BA /* HomeView.swift in Sources */,
+				5E3953162570C1C30079A81E /* FeedView.swift in Sources */,
 				5E38F916256582BC00A37A5F /* LizBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -52,8 +52,8 @@ struct SignupView: View {
                     Text("Sign Up and Login!")
                         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
                         .frame(height: 50)
-                        .foregroundColor(.black)
-                    .background(LinearGradient(gradient: Gradient(colors: [Color("LightTeal"), Color("DarkTeal")]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+                        .foregroundColor(.white)
+                    .background(LinearGradient(gradient: Gradient(colors: [Color("blue1"), Color("blue1")]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
                     .cornerRadius(5)
                     .foregroundColor(.white)
                 }
